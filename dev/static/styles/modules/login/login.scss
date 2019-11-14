@@ -1,0 +1,44 @@
+.login {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+
+	> div {
+		height: 36px;
+	}
+
+	& .login__subscribe {
+		display: flex;
+		align-items: center;
+		border-right: 1px solid #7F8FA4;
+		position: relative;
+
+		&:after {
+			content: "";
+			position: absolute;
+			width: 8px;
+			height: 8px;
+			border-radius: 40px;
+			display: block;
+			top: 0;
+			left: 20px;
+			background: #FFFFFF;;
+		}
+	}
+
+	& .login__subscribe_img {
+		padding-right: 30px;
+		position: relative;
+	}
+
+	& .login__account {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 24px;
+		background: white;
+		border-radius: 50%;
+		width: 36px;
+	}
+
+}

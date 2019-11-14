@@ -1,0 +1,10 @@
+extends template/main
+
+block variables
+	- var title = 'Главная страница'
+
+block content
+	include ./modules/content-header/content-header
+	.content-body
+		include ./modules/categories/categories
+		include ./modules/products/products
